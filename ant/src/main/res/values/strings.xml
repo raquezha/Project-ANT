@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AnongNumberTo</string>
+    <string name="title">Project ANT (Anong Number To?)</string>
+    <string name="number_input_sample">Your Input Here</string>
 </resources>

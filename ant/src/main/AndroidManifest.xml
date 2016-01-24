@@ -2,8 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="raquezha.net.anongnumberto" >
 
-    <application
-        android:allowBackup="true"
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application android:label="@string/app_name"
+        android:name=".ANTApplication">
+
+    android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
@@ -15,6 +20,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="ajCGi0ErZhxYrE2zDheCIQ2RYOrG6yB1brXfhl0l" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="CVh1nt5P2kYmp6tt1qY9kneIl7B1Ea6RWHjo9qCT" />
+
     </application>
 
 </manifest>
